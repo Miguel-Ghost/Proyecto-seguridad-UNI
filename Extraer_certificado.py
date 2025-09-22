@@ -297,8 +297,6 @@ with open("cert_auth_clean.cer", "wb") as f:
     f.write(clean_cert)
 print("OK: Certificado guardado en cert_auth_clean.cer")
 
-
-
 # Cerrar conexión
 connection.disconnect()
 print("\nOK: Conexion cerrada")
